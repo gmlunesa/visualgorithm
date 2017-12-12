@@ -186,7 +186,6 @@ def insertion_subroutine(data, gap):
         
         while 0 < index and data[index] < data[index - gap]:
             comparisons += 1
-            # Do the swap!
             data[index], data[
                 index - gap] = data[index - gap], data[index]
             swaps += 1
