@@ -57,7 +57,7 @@ def on2_eval():
         result = selection_sort(case)
         selection_y_values.append(result[0])
        
-    plt.plot(x_values, selection_y_values)
+    plt.plot(x_values, selection_y_values, linewidth=3.0)
    
     for case in reversedsorted_is:
         result = insertion_sort(case)
